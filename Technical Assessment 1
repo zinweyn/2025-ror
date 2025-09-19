@@ -1,0 +1,242 @@
+// Technical_Assessment_#1
+// Name: Zeanwyn R. Merillo
+// Date: 9/18/2025
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+//Introduction first
+//This Section is just a Introduction for the Student who made this Program
+
+	cout << "Hello Dear Traveller I See That You Have Made your First Step Into This Lesson\n\n";
+
+//Full_name
+	string name;
+	cout << "May I ask what is your name dear traveler: ";
+	getline(cin, name);
+//
+	cout << "\nI see that your name is " << name << " what a splendid name it is dear traveler!!\n";
+	cout << "[-------------------------------------------------------------------------------------]";
+
+//Section
+	string section;
+	cout << "\n\nWhat country you are from (Block section): ";
+	getline(cin, section);
+//
+	cout << "\nOhhh so traveler you are from " << section << " ,I see\n";
+	cout << "[-------------------------------------------------------------------------------------]";
+
+//Date
+	string date;
+	cout << "\n\nTraveler what is the date today, I forgot: ";
+	getline(cin, date);
+//
+	cout << "\nThank you for telling me the date\n";
+	cout << "[-------------------------------------------------------------------------------------]\n";
+
+	cout << "\n\nTraveler aka " << name << " you will now embark on the first step in your journey even though it will be short";
+	cin.ignore();
+
+
+//======================================================================================================
+//Part 1: Average of 5 Numbers but in Adventuring way!!!
+	cout << "\n\n=================== Your First Task in Adventure: Average of Your Gold Gathered from Slaying Mobs in 5 Days ===================\n";
+	cout << "--------------------------------------------------------------------------------------------------------------------------------";
+	cout << "\n\nTraveler I know you have slain a mobs along the way so why not input the golds you have gain during the 5 days of you adventuring!\n\n";
+
+//first
+	int number_one;
+	cout << "\nFirst day of slaying mobs 1: ";
+	cin >> number_one;
+
+//second
+	int number_two;
+	cout << "\nSecond day of slaying mobs 2: ";
+	cin >> number_two;
+
+//third
+	int number_three;
+	cout << "\nThird day of slaying mobs 3: ";
+	cin >> number_three;
+
+//fourth
+	int number_four;
+	cout << "\nFourth day of slaying mobs 4: ";
+	cin >> number_four;
+
+//fifth
+	int number_five;
+	cout << "\nFifth day of slaying mobs 5: ";
+	cin >> number_five;
+
+//Formula for the Average
+	int formula = (number_one + number_two + number_three + number_four + number_five) / 5;
+
+	cout << "\nThe general average of your 5 days worth of slaying mobs is " << formula << " golds what a good amount of golds you have";
+	cin.ignore();
+
+
+//====================================================================================================
+
+//Part 2: Student Information but in adventuring way!!!
+	cout << "\n\n\n=================== Your Second Task in Adventure: The Recruitment Information For Your Party ===================\n";
+	cout << "--------------------------------------------------------------------------------------------------------------------------------";
+	cout << "\n\nOf course when having a party you need a details first right, so why not list down the information of the members your eyes have on!!\n";
+	cout << "\n\nEnter Details For Your Recruit Person 1\n";
+
+//Student_1,
+//Variable is called stud because I want to still know it is a student
+//But in the Output it will be called Recruit Person for creativeness
+//Name of student
+	string stud_1;
+	cout << "\nMay I ask what is the Full Name of the Recruit Person: ";
+	getline(cin, stud_1);
+
+//Age
+	string age_1;
+	cout << "What is the Age: ";
+	getline(cin, age_1);
+
+//Facebook
+	string fb_1;
+	cout << "What is the Codename of the Person (Facebook Account): ";
+	getline(cin, fb_1);
+
+//Section
+	string sect_1;
+	cout << "Where he/she came from (Block Section): ";
+	getline(cin, sect_1);
+
+	cout << "\n\nThe recruitment information indicate that the Recruit Name is " << stud_1 << " and the age of him/her is " << age_1 << " ,the codename (FB Acc) is " << fb_1 << " and lastly, his/her place (section) is " << sect_1 << " ,Correct?";
+	cin.ignore();
+//---------------------------------------------------------------------------------------------------
+
+	cout << "[---------------------------------------------------------------------------------------------------------------------------]\n";
+	cout << "\n\nEnter Details For Your Recruit Person 2\n";
+//Student_2
+//Name of student
+	string stud_2;
+	cout << "\nMay I ask what is the Full Name of the Recruit Person: ";
+	getline(cin, stud_2);
+
+//Age
+	string age_2;
+	cout << "What is the Age: ";
+	getline(cin, age_2);
+
+//Facebook
+	string fb_2;
+	cout << "What is the Codename of the Person (Facebook Account): ";
+	getline(cin, fb_2);
+
+//Section
+	string sect_2;
+	cout << "Where he/she came from (Block Section): ";
+	getline(cin, sect_2);
+
+	cout << "\n\nThe recruitment information indicate that the Recruit Name is " << stud_2 << " and the age of him/her is is " << age_2 << " ,the codename (FB Acc) is " << fb_2 << " and lastly, his/her place (section) is " << sect_2 << " ,Correct?";
+	cin.ignore();
+//----------------------------------------------------------------------------------------------------------------
+
+	cout << "[---------------------------------------------------------------------------------------------------------------------------]\n";
+	cout << "\n\nEnter Details For Your Recruit Person 3\n";
+//Student_3
+//Name of student
+	string stud_3;
+	cout << "\nMay I ask what is the Full Name of the Recruit Person: ";
+	getline(cin, stud_3);
+
+//Age
+	string age_3;
+	cout << "What is the Age: ";
+	getline(cin, age_3);
+
+//Facebook
+	string fb_3;
+	cout << "What is the Codename of the Person (Facebook Account): ";
+	getline(cin, fb_3);
+
+//Section
+	string sect_3;
+	cout << "Where he/she came from (Block Section): ";
+	getline(cin, sect_3);
+
+	cout << "\n\nThe recruitment information indicate that the Recruit Name is " << stud_3 << " and the age of him/her is " << age_3 << " ,the codename (FB Acc) is " << fb_3 << " and lastly, his/her place (section) is " << sect_3 << " ,Correct?";
+	cin.ignore();
+//-------------------------------------------------------------------------------------------------------------
+
+	cout << "[---------------------------------------------------------------------------------------------------------------------------]\n";
+	cout << "\n\nEnter Details For Your Recruit Person 4\n";
+//Student_4
+//Name of student
+	string stud_4;
+	cout << "\nMay I ask what is the Full Name of the Recruit Person: ";
+	getline(cin, stud_4);
+
+//Age
+	string age_4;
+	cout << "What is the Age: ";
+	getline(cin, age_4);
+
+//Facebook
+	string fb_4;
+	cout << "What is the Codename of the Person (Facebook Account): ";
+	getline(cin, fb_4);
+
+//Section
+	string sect_4;
+	cout << "Where he/she came from (Block Section): ";
+	getline(cin, sect_4);
+
+	cout << "\n\nThe recruitment information indicate that the Recruit Name is " << stud_4 << " and the age of him/her is " << age_4 << " ,the codename (FB Acc) is " << fb_4 << " and lastly, his/her place (section) is " << sect_4 << " ,Correct?";
+	cin.ignore();
+//----------------------------------------------------------------------------------------------------------------
+
+	cout << "[---------------------------------------------------------------------------------------------------------------------------]\n";
+	cout << "\n\nEnter Details For Your Recruit Person 5\n";
+//Student_5
+//Name of student
+	string stud_5;
+	cout << "\nMay I ask what is the Full Name of the Recruit Person: ";
+	getline(cin, stud_5);
+
+//Age
+	string age_5;
+	cout << "What is the Age: ";
+	getline(cin, age_5);
+
+//Facebook
+	string fb_5;
+	cout << "What is the Codename of the Person (Facebook Account): ";
+	getline(cin, fb_5);
+
+//Section
+	string sect_5;
+	cout << "Where he/she came from (Block Section): ";
+	getline(cin, sect_5);
+
+	cout << "\n\nThe recruitment information indicate that the Recruit Name is " << stud_5 << " and the age of him/her is " << age_5 << " ,the codename (FB Acc) " << fb_5 << " and lastly, his/her place (section) is " << sect_5 << " ,Correct?";
+	cin.ignore();
+//----------------------------------------------------------------------------------------------------------------
+
+
+// =========================================================================================================
+//Just an Extra thingy
+	cout << "\n======================================= The Beginnings End =======================================\n";
+	cout << "\n\nAre you done with your adventure?\n\n";
+
+	string identify;
+	cout << "Enter you Confirmation Traveler: ";
+	getline(cin, identify);
+
+	if (identify == "yes" || identify == "Yes") {
+		cout << "\n\nYou will now embark into the more difficult things traveler, I know you can do it!";
+	}
+	else {
+		cout << "\n\nI see, sometimes it is better to stay first before going into more difficult things traveler and I respect that";
+	}
+
+	return 0;
+}
